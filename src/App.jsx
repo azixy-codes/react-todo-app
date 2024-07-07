@@ -26,6 +26,7 @@ function App() {
 
   return (
     <div className="container">
+      <h1 className="heading">My TODO App</h1>
       <Form
         inputValue={input}
         onInputChange={setInput}
